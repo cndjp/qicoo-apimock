@@ -1,1 +1,2 @@
-# qicoo-api-mock
+# README
+API MockサーバのResponseJsonファイルを格納しています。
