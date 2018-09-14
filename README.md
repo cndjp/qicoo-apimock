@@ -3,8 +3,8 @@ API MockサーバのResponseJsonファイルを格納しています。
 
 # Quick Start
 ```
-git clone https://github.com/Sugi275/qicoo-api-mock.git ~/qicoo-api-mock
-docker run --name apimock --rm -d -p 80:80 -v ~/qicoo-api-mock/api_responses/:/data/ sugimount/qicoo-apimock:0.0.1
+git clone https://github.com/cndjp/qicoo-apimock.git ~/qicoo-apimock
+docker run --name apimock --rm -d -p 80:80 -v ~/qicoo-apimock/api_responses/:/data/ sugimount/qicoo-apimock:0.0.1
 ```
 
 API Curl
