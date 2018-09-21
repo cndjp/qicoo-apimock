@@ -10,7 +10,7 @@ docker run --name apimock --rm -d -p 80:80 -v ~/qicoo-apimock/api_responses/:/da
 API Curl
 ```
 # create a question
-curl -s -v -H "Content-Type: application/json" -X POST http://localhost/v1/questions -d '
+curl -s -v -H "Content-Type: application/json" -X POST http://localhost/v1/jkd1812/questions -d '
 {
   "event": "jkd1812",
   "program": "1",
@@ -19,16 +19,16 @@ curl -s -v -H "Content-Type: application/json" -X POST http://localhost/v1/quest
 '
 
 # Retrieve a Question
-curl -s -v -H "Content-Type: application/json" -X GET http://localhost/v1/questions/BosWT9EsdzgjPn
+curl -s -v -H "Content-Type: application/json" -X GET http://localhost/v1/jkd1812/questions/BosWT9EsdzgjPn
 
 # Delete a Question
-curl -s -v -H "Content-Type: application/json" -X DELETE http://localhost/v1/questions/BosWT9EsdzgjPn
+curl -s -v -H "Content-Type: application/json" -X DELETE http://localhost/v1/jkd1812/questions/BosWT9EsdzgjPn
 
 # list all questions
-curl -s -v -H "Content-Type: application/json" -X GET http://localhost/v1/questions
+curl -s -v -H "Content-Type: application/json" -X GET http://localhost/v1/jkd1812/questions
 
 # like a question
-curl -s -v -H "Content-Type: application/json" -X PUT http://localhost/v1/questions/BosWT9EsdzgjPn/like
+curl -s -v -H "Content-Type: application/json" -X PUT http://localhost/v1/jkd1812/questions/BosWT9EsdzgjPn/like
 
 # create a user
 curl -s -v -H "Content-Type: application/json" -X POST http://localhost/v1/users -d '
