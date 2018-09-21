@@ -12,8 +12,8 @@ API Curl
 # create a question
 curl -s -v -H "Content-Type: application/json" -X POST http://localhost/v1/jkd1812/questions -d '
 {
-  "event": "jkd1812",
-  "program": "1",
+  "event_id": "jkd1812",
+  "program_id": "1",
   "comment": "kubernetesの〇〇について教えてください！"
 }
 '
